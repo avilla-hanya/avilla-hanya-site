@@ -1,0 +1,124 @@
+body {
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+        background-color: rgb(31, 31, 31);
+        
+      }
+            .textBox {
+            display:flex;
+            flex-direction: column;
+            background-color: rgb(95, 91, 69);
+            color: rgb(225,225,225);
+            text-align: center;
+            border-style: solid;
+            border-color: rgb(211, 184, 115);
+            height: auto;
+            width: 50%;
+            margin: auto;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+        .quizBox {
+            display:flex;
+            flex-direction: column;
+            background-color: rgb(95, 91, 69);
+            color: rgb(225,225,225);
+            text-align: center;
+            border-style: solid;
+            border-color: rgb(211, 184, 115);
+            height: auto;
+            width: 50%;
+            margin: auto;
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+h1 {
+  color: rgb(225,225,225);
+  text-align: center;
+}
+span {
+  color: rgb(211, 184, 115);
+  font-size: 30px;
+  cursor: pointer;
+}
+img {
+  max-width: 100%;
+  width: 900px;
+  height: auto;
+}
+.logoHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.textBox a {
+  color: rgb(211, 184, 115);
+  text-decoration: none;
+}
+
+.textBox a:visited {
+  color: rgb(211, 184, 115);
+  text-decoration: none;
+}
+
+.textBox a:hover {
+  color: rgb(138, 132, 102);
+  text-decoration: none;
+}
+
+/*Sidebar navigation styling*/
+.sideNav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(41, 41, 41);
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sideNav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 24px;
+  color: rgb(211, 184, 115);
+  display: block;
+  transition: 0.3s;
+}
+
+.sideNav a:hover {
+  color: rgb(138, 132, 102);
+}
+
+.sideNav .closeBtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+/*Pushes everything to the right when the sidebar is opened*/ 
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/*Adjusts text for mobile phone view*/
+@media screen and (max-height: 450px) {
+  .sideNav {padding-top: 15px;}
+  .sideNav a {font-size: 18px;}
+  .logoHeader {width: 0; height: 0;}
+}
+
+.footerDisc {
+  color: rgb(225,225,225);
+  font-size: 13px;
+  text-align: left;
+  margin-left: 120px;
+  margin-right: 120px;
+}
