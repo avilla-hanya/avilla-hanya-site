@@ -154,6 +154,12 @@ input[type="radio"] {
   }
 }
 
+@media screen and (max-width: 600px) {
+  .textBox {
+    width:90%;
+  }
+}
+
 .footerDisc {
   color: rgb(225, 225, 225);
   font-size: 13px;

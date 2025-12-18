@@ -99,10 +99,17 @@ img {
   .logoHeader {width: 0; height: 0;}
 }
 
+@media screen and (max-width: 600px) {
+  .textBox {
+    width:90%;
+  }
+}
+
 .footerDisc {
   color: rgb(225,225,225);
   font-size: 13px;
   text-align: left;
   margin-left: 120px;
   margin-right: 120px;
+  width: 90%;
 }

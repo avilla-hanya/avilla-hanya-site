@@ -1,8 +1,17 @@
+let w = window.innerWidth;
+let h = window.innerHeight;
+
 //Adjusts width of sidebar navigation to 250px
 //Also need to push the page to the right
 function openNav() {
+  if (w > 600) {
   document.getElementById("sideNav").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
+  //document.getElementById("main").style.marginLeft = "250px";
+  }
+  else if (w <= 600) {
+  document.getElementById("sideNav").style.width = "600px";
+  //document.getElementById("main").style.marginLeft = "600px";
+  }
 }
 
 //Closes the sidebar again by returning the width to 0
