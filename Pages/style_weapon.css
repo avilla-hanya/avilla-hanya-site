@@ -17,6 +17,21 @@ body {
   padding-right: 16px;
 } 
 
+table {
+  color: rgb(225, 225, 225);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-collapse: collapse;
+}
+td, th {
+  border: 2px solid rgb(211, 184, 115);
+  padding: 4px;
+}
+tr {
+  background-color: rgb(138, 132, 102);
+}
+tr:nth-child(even) {
+  background-color: rgb(124, 119, 92);
+}
 h1 {
   color: rgb(225, 225, 225);
   text-align: left;
