@@ -51,6 +51,14 @@ img {
   text-decoration: none;
 }
 
+.subNav {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  justify-items: center;
+}
+
 /*Sidebar navigation styling*/
 .sideNav {
   height: 100%;
